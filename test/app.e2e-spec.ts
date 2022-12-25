@@ -88,7 +88,7 @@ describe('Testes dos Módulos Usuário de Auth (e2e)', () => {
         sobrenome: 'Root',
         email: 'root@root.com',
         senha: 'Root@1234',
-        foto: 'https://i.imgur.com/MxHmulq.jpeg',
+        foto: 'https://image.api.playstation.com/vulcan/img/rnd/202010/2119/VljHbt4vhc3Bmn8s83kFAPVg.png',
       })
       .then((resposta) => {
         expect('Root atualizado').toEqual(resposta.body.nome);

@@ -10,9 +10,9 @@ async function bootstrap() {
     .setTitle('Blog Pessoal')
     .setDescription('Projeto Blog Pessoal')
     .setContact(
-      'Rafaele Souza',
-      'http://rafaelesouza.com',
-      'rafaelessv@gmail.com',
+      'Alexsander Machado',
+      'https://github.com/alexsandermog',
+      'alexsandermachado15@gmail.com',
     )
     .setVersion('1.0')
     .addBearerAuth()
